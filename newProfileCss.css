@@ -1,0 +1,1108 @@
+
+
+
+		.profileBox
+		{
+			width: 100%;
+			height: 100vh;
+			float: left;
+			position: relative;
+			overflow-x: hidden;
+			overflow-y: auto;
+		}
+		::-webkit-scrollbar {
+		  width: 0px;
+		}
+		.personalNickProfile
+		{
+			width: 180px;
+			height: 24px;
+			float: left;
+			items-align: center;
+			text-align: center;
+			font-size: 15px;
+
+			position: absolute;
+			left: 0px;
+			top: 0px;
+		}
+		.personalPicture
+		{
+			width: 520px;
+			height: 230px;
+			float: left;
+			position: absolute;
+			right: 0px;
+			top: 0px;
+		}
+		.getPicture
+		{
+			width: 510px;
+			height: 220px;
+			margin-top: 5px;
+			margin-left: 5px;
+		}
+		.personalPictureEditField
+		{
+			width: 350px;
+			height: 100px;
+			position: absolute;
+			top: 0;
+			left: 15%;
+			border: 1px dotted #fff;
+			font-size: 15px;
+			display: none;
+		}
+		#pictureLabelFile
+		{
+			float: left;
+		}
+		#personalPictureEditSubmit
+		{
+			width: 70px;
+			height: 20px;
+			float: left;
+			margin-left: 5px;
+		}
+		.personalPhoto
+		{
+			width: 180px;
+			height: 200px;
+			float: left;
+			position: absolute;
+			left: 0px;
+			top: 30px;
+
+		}
+		#personalphotoEditSubmit
+		{
+			width: 70px;
+			height: 20px;
+			float: left;
+			margin-left: 5px;			
+		}
+		.personalGalleryNav
+		{
+			width: 100px;
+			height: 22px;
+			position: absolute;
+			right: 10px;
+			top: 50px;
+			border: 2px dotted #303030;
+					cursor: pointer;
+					letter-spacing: 2px;
+					outline: none;			
+					background-color: #efefef;
+					font-size: 14px;
+					color: #303030;
+					text-align: center;
+					items-align: center;
+		}
+		.personalGalleryNav:hover
+		{
+			background-color: #D8E1E9;
+		}
+		.personalText
+		{
+			width: 100%;
+			height: 260px;
+			position: relative;
+			left: 0px;
+			top: 240px;				
+			
+		}
+		
+		
+		
+		
+		.personalTextField
+		{
+			width: 265px;
+			height: 230px;
+			text-align: justify;
+			border-top: 3px dotted #D8E1E9;
+			position: absolute;
+			top: 5px;
+			left: 0px;
+			border-radius: 7px;
+			text-align: center;
+			font-size: 15px;
+		}
+			#personalTextEdit
+			{
+					width: 25px;
+					height: 25px;
+					background-color: #efefef;
+					font-size: 14px;
+					border: 2px dotted #303030;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 5px;
+					cursor: pointer;
+					letter-spacing: 2px;
+					outline: none;
+					position: absolute;
+					top: 0px;
+					right: 5px;
+					text-align: center;
+					border-radius: 2px;			
+			}
+			#personalTextEdit:hover
+				{
+					background-color: #50D4C3;
+				}	
+			.desc-text-edit
+			{
+				
+				display: none;
+			}
+			
+			.desc-text-edit-opened .desc-text-edit
+			{
+				display: block;
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+			}
+			
+			.desc-form
+			{
+				
+			}
+
+			
+		#personalDesc
+		{
+			width: 195px;
+			height: 100px;
+			text-align: justify;
+			position: absolute;
+			top: 5px;
+			left: 30px;
+			font-size: 14px;
+			outline: none;
+			resize: none;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+			cursor: pointer;
+		}
+		#descSubmit
+		{
+			width: 80px;
+			height: 22px;
+			position: absolute;
+			top: 115px;
+			right: 34px;
+			border: none;
+			background: none;
+			cursor: pointer;
+		}
+		#desc-answer
+		{
+			
+		}
+		#closeTextButton
+		{
+			width: 25px;
+			height: 25px;
+			position: absolute;
+			top: 5px;
+			right: 5px;
+			display: block;	
+			cursor: pointer;
+		}		
+		
+		
+		.navList
+		{
+			width: 245px;
+			height: 30px;
+			position: absolute;
+			top: 0;
+			left: 270px;
+			background-color: #D8E1E9;
+			border-radius: 10px 0px 10px 0px;
+			z-index: 3;
+		}
+		.navPersonalList
+		{
+			width: 325px;
+			height: 30px;
+			position: absolute;
+			top: 0;
+			left: 270px;
+			background-color: #D8E1E9;
+			border-radius: 10px 0px 10px 0px;
+			z-index: 3;			
+		}
+			#infoBtn
+			{
+				width: 75px;
+				height: 20px;
+				border: none;
+				margin-top: 7px;
+				margin-left: 5px;
+				border-radius: 5px;
+				background-color: #303030;
+				font-size: 13px;
+				color: #D8E1E9;
+				float: left;
+				cursor: pointer;
+			}		
+			#infoBtn:hover
+			{
+				color: #efefef;
+			}
+			#infoBtn:focus
+			{
+				color: #efefef;
+			}
+
+			#personalDetailsEditBtn
+			{
+				width: 25px;
+				height: 25px;
+				position: absolute;
+				top: 5px;
+				right: 5px;
+				display: block;	
+				cursor: pointer;	
+				border: 1px dotted #303030;
+				z-index: 2;
+			}
+			#personalDetailsEditBtn:hover
+			{
+				color: #efefef;
+			}
+			#personalDetailsEditBtn:focus
+			{
+				color: #efefef;
+			}
+
+
+			#gListBtn
+			{
+				width: 75px;
+				height: 20px;
+				border: none;
+				margin-top: 7px;
+				margin-left: 5px;
+				border-radius: 5px;
+				background-color: #303030;
+				font-size: 13px;
+				color: #D8E1E9;
+				float: left;		
+				cursor: pointer;
+			}		
+			#gListBtn:hover
+			{
+				color: #efefef;
+			}
+			#gListBtn:focus
+			{
+				color: #efefef;
+			}
+			#friendSubmit
+			{
+				width: 70px;
+				height: 20px;
+				border: none;
+				margin-left: 5px;
+				border-radius: 5px;
+				background-color: #303030;
+				font-size: 13px;
+				color: #D8E1E9;
+				float: left;
+				position: absolute;
+				top: 0;
+				right: 10px;
+				cursor: pointer;
+			}			
+			#friendSubmit:hover
+			{
+				color: #efefef;
+				
+			}
+			#friendSubmit:focus
+			{
+				color: lightgreen;
+			}
+			#fListBtn
+			{
+				width: 75px;
+				height: 20px;
+				border: none;
+				margin-top: 7px;
+				margin-left: 5px;
+				border-radius: 5px;
+				background-color: #303030;
+				font-size: 13px;
+				color: #D8E1E9;
+				float: left;
+				cursor: pointer;
+			}
+			#fListBtn:hover
+			{
+				color: #efefef;
+			}
+			#fListBtn:focus
+			{
+				color: #efefef;
+			}
+			#appListBtn
+			{
+				width: 75px;
+				height: 20px;
+				border: none;
+				margin-top: 7px;
+				margin-left: 5px;
+				border-radius: 5px;
+				background-color: #303030;
+				font-size: 13px;
+				color: #D8E1E9;
+				float: left;
+				cursor: pointer;				
+			}
+
+	
+							.notificationBox
+							{
+								margin-top: 0px;
+								
+								width: 90%;
+								min-height: 100vh;
+								border: 4px dotted #D8E1E9;
+								font-size: 15px;
+								text-align: justify;
+								background-color: #efefef;
+								padding-top: 10px;
+								padding-bottom: 10px;
+								float: left;
+								border-radius: 5px;			
+								overflow-x: hidden;
+								overflow-y: auto;	
+							}
+
+							
+							.zapytania
+							{
+								width: 100%;
+								float: left;
+								position: relative;
+								
+								
+							}
+							.askNick
+							{
+								width: 350px;
+								margin-left: 10px;
+								float: left;
+							}
+							#friendAccept
+							{
+								width: 75px;
+								height: 22px;
+								float: left;
+								cursor: pointer;
+								border: none;
+								margin-left: 10px;
+							}
+							#friendAccept:hover
+							{
+								border: 1px solid #D8E1E9;
+								border-radius: 5px;
+							}
+							#friendAccept:focus
+							{
+								color: #49c500;
+								border: 1px solid #D8E1E9;
+								border-radius: 5px;								
+							}
+							#removeAskSubmit
+							{
+								width: 75px;
+								height: 22px;
+								float: left;
+								margin-left: 5px;
+								cursor: pointer;
+								border: none;
+								
+							}
+							#removeAskSubmit:hover
+							{
+								border: 1px solid #D8E1E9;
+								border-radius: 5px;
+							}							
+							#removeAskSubmit:focus
+							{
+								color: #49c500;
+								border: 1px solid #D8E1E9;
+								border-radius: 5px;								
+							}
+
+		.infoPersonal
+		{
+				width: 400px;
+				height: 230px;
+				position: absolute;
+				top: 30px;
+				left: 270px;
+				background-color: #efefef;
+				border-radius: 10px;
+				font-size: 15px;
+				display: none;
+				z-index: 1;
+		}
+		.infoOpen .infoPersonal
+		{
+			display: block;
+		}
+		.infoOpen #infoBtn
+		{
+			color: #49c500;
+		}
+
+			.detailsPersonalEdit
+			{
+				width: 400px;
+				height: 230px;
+				position: absolute;
+				top: 30px;
+				left: 270px;
+				background-color: #efefef;
+				border-radius: 10px;
+				font-size: 15px;
+				display: none;
+				z-index: 1;		
+			}
+		.detailsPersonalEditOpen .detailsPersonalEdit
+		{
+			display: block;
+		}
+		.detInputField
+		{
+			width: 155px;
+			position: absolute;
+			top: 10px;
+			left: 130px;	
+			float: left;
+
+		}
+		.detPersonalNames
+		{
+			width: 400px;
+			height: 220px;
+			float: left;
+			position: absolute;
+			top: 10px;
+			left: 0;					
+		}
+		.detInputNames
+		{
+			width: 155px;
+			height: 220px;
+			float: left;
+			position: absolute;
+			top: 10px;
+			left: 0;			
+		}
+		.detInput
+		{
+			width: 150px;
+			height: 19px;
+			margin-bottom: 8px;		
+			float: left;
+			font-size: 14px;
+			border: 1px solid #303030;
+			border-radius: 3px;
+			background-color: #efefef;
+		}
+		.detInput:focus
+		{
+			background-color: #D8E1E9;
+		}
+		#detailsInputSubmit
+		{
+				width: 75px;
+				height: 20px;
+				border: 1px solid #D8E1E9;
+				position: absolute;
+				bottom: 30px;
+				right: 0;
+				border-radius: 5px;
+				background-color: #efefef;
+				font-size: 13px;
+				color: #303030;
+				float: left;
+				cursor: pointer;				
+		}
+		#detailsInputSubmit:hover
+		{
+			color: #303030;
+		}
+		#detailsInputSubmit:focus
+		{
+			color: #49c500;
+		}
+		#getPersonalAjaxInfo
+		{
+			width: 250px;
+			height: 220px;
+			float: left;
+			position: absolute;
+			top: 10px;
+			left: 155px;	
+			z-index: 1;
+		}
+		#getPersonalAjaxInfo > p
+		{
+			margin-bottom: 8px;
+		}
+		
+		.gListPersonal
+		{
+				width: 400px;
+				height: 230px;
+				position: absolute;
+				top: 30px;
+				left: 270px;
+				background-color: #efefef;
+				border-radius: 10px;
+				font-size: 15px;
+				display: none;
+				z-index: 1;
+				overflow-x: hidden;
+				overflow-y: auto;
+		}
+		.gListOpen .gListPersonal
+		{
+			display: block;
+		}
+		.gListOpen #gListBtn
+		{
+			color: #49c500;
+		}
+		.fListPersonal
+		{
+				width: 400px;
+				height: 230px;
+				position: absolute;
+				top: 30px;
+				left: 270px;
+				background-color: #efefef;
+				border-radius: 10px;
+				font-size: 15px;
+				display: none;
+				z-index: 1;
+				overflow-x: hidden;
+				overflow-y: auto;			
+		}
+		.fListOpen .fListPersonal
+		{
+			display: block;
+		}
+		.fListOpen #fListBtn
+		{
+			color: #49c500;
+		}
+		.appListPersonal
+		{
+				width: 400px;
+				height: 230px;
+				position: absolute;
+				top: 30px;
+				left: 270px;
+				background-color: #efefef;
+				border-radius: 10px;
+				font-size: 15px;
+				display: none;
+				z-index: 1;
+				overflow-x: hidden;
+				overflow-y: auto;
+		}
+		.appListOpen .appListPersonal
+		{
+			display: block;
+		}
+		.appListOpen #appListBtn
+		{
+			color: #49c500;
+		}
+		.dRemindPersonalApp
+		{
+				width: 400px;
+				height: 230px;
+				position: absolute;
+				top: 30px;
+				left: 270px;
+				background-color: #efefef;
+				border-radius: 10px;
+				font-size: 15px;
+				display: none;
+				z-index: 1;
+				overflow-x: hidden;
+				overflow-y: auto;			
+		}
+		.dRemindOpen .dRemindPersonalApp
+		{
+			display: block;
+		}
+		#dRemindBtn
+		{
+			width: 120px;
+			height: 20px;
+			border: none;
+			text-align: justify;
+			font-size: 15px;
+			background-color: #efefef;
+			cursor: pointer;
+		}
+		#dRemindBtn:focus
+		{
+			border: none;
+			color: #49c500;
+		}
+		#dRemindBtnInsert
+		{
+			width: 90px;
+			height: 25px;
+			position: absolute;
+			right: 85px;
+			bottom: 5px;
+			border: none;
+			text-align: center;
+			font-size: 15px;
+			background-color: #efefef;			
+			cursor: pointer;
+		}
+		#dRemindBtnInsert:focus
+		{
+			color: #49c500;
+		}
+		#dRemindBtnClose
+		{
+			width: 70px;
+			height: 25px;
+			position: absolute;
+			right: 5px;
+			bottom: 5px;
+			border: none;
+			text-align: center;
+			font-size: 15px;
+			background-color: #efefef;
+			cursor: pointer;
+		}
+		#dRemindBtnClose:focus
+		{
+			color: #49c500;
+		}
+		.dRemindPersonalAppInsert
+		{
+				width: 400px;
+				height: 230px;
+				position: absolute;
+				top: 30px;
+				left: 270px;
+				background-color: #efefef;
+				border-radius: 10px;
+				font-size: 15px;
+				display: none;
+				z-index: 1;
+				overflow-x: hidden;
+				overflow-y: auto;						
+		}
+		.dRemindInsertOpen .dRemindPersonalAppInsert
+		{
+			display: block;
+		}
+		#dRemindPersonalAppInsertClose
+		{
+			width: 70px;
+			height: 25px;
+			position: absolute;
+			right: 5px;
+			bottom: 5px;
+			border: none;
+			text-align: center;
+			font-size: 15px;
+			background-color: #efefef;			
+		}
+		#dRemindPersonalAppInsertClose:focus
+		{
+			color: #49c500;
+		}
+			.olistaPersonal
+			{
+				width: 90%;
+				height: 30px;
+				float: left;
+				margin-top: 0px;
+				border-radius: 15px;
+			}
+		
+		
+		
+		.personalPostWall
+		{
+			width: 300px;
+			height: 230px;
+			text-align: justify;
+			position: absolute;
+			top: 5px;
+			left: 285px;			
+		}
+		#personalEdit
+		{
+					width: 25px;
+					height: 25px;
+					background-color: #efefef;
+					font-size: 14px;
+					border: 2px dotted #303030;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 5px;
+					cursor: pointer;
+					letter-spacing: 2px;
+					outline: none;
+					position: absolute;
+					top: 0px;
+					right: 5px;
+					text-align: center;
+					border-radius: 2px;
+		}
+			.edit-pic-opened .personalPictureEditField
+			{
+				display: block;
+			}
+			#closePictureUploadButton
+			{
+				width: 25px;
+				height: 25px;
+				position: absolute;
+				top: 5px;
+				right: 5px;
+				display: block;
+			}
+
+			#personalEdit:hover
+				{
+					background-color: #50D4C3;
+				}	
+
+
+
+		.textNaviDiv
+		{
+					width: 25px;
+					height: 25px;
+					background-color: #efefef;
+					font-size: 14px;
+					border: none;
+					border: 2px dotted #303030;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 5px;
+					cursor: pointer;
+					letter-spacing: 3px;
+					outline: none;
+					position: absolute;
+					top: 0px;
+					right: 5px;
+					text-align: center;
+					border-radius: 2px;
+					opacity: 100%;
+		}
+			.textNaviDiv:hover, .textNaviDiv:focus
+				{
+					background-color: #D8E1E9;
+				}	
+			.dropdown
+			{
+				position: relative;
+				display: block;
+			}
+
+			.personal-options
+			{
+					min-width: 100px;
+					min-height: 100px;
+					items-align: center;
+					position: absolute;
+					top: 0px;
+					right: 30px;
+					display: none;
+					box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+					z-index: 2;
+					overflow: auto;
+			}
+			#personalMessageNav
+			{
+					width: 100px;
+					height: 22px;
+					background-color: #efefef;
+					font-size: 14px;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 5px;
+					cursor: pointer;
+					letter-spacing: 2px;
+					border: none;
+					position: absolute;
+					top: 0px;
+					right: 0px;
+					text-align: center;	
+					border-radius: 4px;
+					display: block;
+			}
+			.personalMessageBox
+			{
+				width: 500px;
+				height: 450px;
+				position: fixed;
+				top: 140px;
+				left: 450px;
+				z-index: 3;
+				display: none;
+			}
+			.personalMessageOpened .personalMessageBox
+			{
+				display: block;
+				
+			}
+			#closeChatButton
+			{
+				width: 25px;
+				height: 25px;
+				position: absolute;
+				top: 0px;
+				right: 5px;
+				display: block;
+			}
+			
+			
+			.show
+			{
+					display: block;
+					position: absolute;
+
+			}
+			#personalInfoNav
+			{
+					width: 100px;
+					height: 22px;
+					background-color: #efefef;
+					font-size: 14px;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 5px;
+					cursor: pointer;
+					letter-spacing: 2px;
+					border: none;
+					position: absolute;
+					top: 24px;
+					right: 0px;
+					text-align: center;	
+					border-radius: 4px;
+			}
+			.personalInfoBox
+			{
+				width: 400px;
+				height: 250px;
+				position: absolute;
+				top: 5px;
+				left: 270px;
+				background-color: #efefef;
+				border-radius: 10px;
+				font-size: 15px;
+				display: block;
+				z-index: 1;
+			}
+			.groupsOpened .personalInfoBox 
+			{
+				display: none;
+			}
+			.userGroupsField
+			{
+				width: 400px;
+				height: 250px;
+				position: absolute;
+				top: 5px;
+				left: 270px;
+				background-color: #efefef;
+				border-radius: 10px;
+				font-size: 15px;
+				display: none;
+				z-index: 2;				
+			}
+			.groupsOpened .userGroupsField
+			{
+				display: block;
+				z-index: 2;
+			}
+			#personalDetailsClose
+			{
+				width: 25px;
+				height: 25px;
+				position: absolute;
+				bottom: 5px;
+				right: 5px;
+				display: block;				
+			}
+				#personalGroupsNav
+				{
+					width: 100px;
+					height: 22px;
+					background-color: #efefef;
+					font-size: 14px;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 5px;
+					cursor: pointer;
+					letter-spacing: 2px;
+					border: none;
+					position: absolute;
+					top: 48px;
+					right: 0px;
+					text-align: center;			
+					border-radius: 4px;
+				}
+				#personalLinksNav
+				{
+					width: 100px;
+					height: 22px;
+					background-color: #efefef;
+					font-size: 14px;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 5px;
+					cursor: pointer;
+					letter-spacing: 2px;
+					border: none;
+					position: absolute;
+					top: 72px;
+					right: 0px;
+					text-align: center;			
+					border-radius: 4px;
+				}
+			.personalGallery
+			{
+				width: 99%;
+				height: 525px;
+				position: relative;
+				top: 500px;
+				left: 0;
+				border: 1px dotted #ffffff;
+				background-color: #efefef;
+			}
+			.personalNickGallery
+			{
+				margin-top: 8px;
+				margin-left: 20px;
+				font-size: 18px;
+			}
+			#personalPicturesNav
+			{
+					width: 120px;
+					height: 25px;
+					background-color: #D8E1E9;
+					font-size: 14px;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 5px;
+					cursor: pointer;
+					letter-spacing: 2px;
+					border: none;
+					position: absolute;
+					top: 0px;
+					left: 5px;
+					text-align: center;			
+					border-radius: 5px;
+					font-weight: bold;
+			}
+			#personalMusicNav
+			{
+					width: 120px;
+					height: 25px;
+					background-color: #D8E1E9;
+					font-size: 14px;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 5px;
+					cursor: pointer;
+					letter-spacing: 2px;
+					border: none;
+					position: absolute;
+					top: 0px;
+					left: 130px;
+					text-align: center;			
+					border-radius: 5px;
+					font-weight: bold;
+			}
+			#personalVideoNav
+			{
+					width: 120px;
+					height: 25px;
+					background-color: #D8E1E9;
+					font-size: 14px;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 5px;
+					cursor: pointer;
+					letter-spacing: 2px;
+					border: none;
+					position: absolute;
+					top: 0px;
+					left: 255px;
+					text-align: center;			
+					border-radius: 5px;
+					font-weight: bold;
+			}
+			#personalAddGalleryBtn
+			{
+				width: 80px;
+				height: 25px;
+				position: absolute;
+				top: 5px;
+				right: 5px;
+				border: none;
+			}
+			
+			.personalAddGallery
+			{
+				width: 300px;
+				height: 120px;
+				border: 1px solid #D8E1E9;
+				position: absolute;
+				top: 30px;
+				right: 5px;
+				box-shadow: 5px 5px 7px;
+				z-index: 2;
+				display: none;
+			}
+			.personalAddGalleryOpen .personalAddGallery
+			{
+				display: block;
+			}
+			#personalAddGalleryClose
+			{
+				width: 50px;
+				height: 20px;
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+				border: none;
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+

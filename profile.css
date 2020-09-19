@@ -1,0 +1,195 @@
+﻿	
+			
+		.faceprofile
+		{
+			width: 100%;
+			height: 100%;
+			background-color: #efefef;
+			margin-left: 0px;
+			float: left;
+			border: 1px dotted #ffffff;
+		}
+			.fhalf
+			{
+				width: 59%;
+
+				background-color: #efefef;
+				border: 1px dotted #ffffff;
+				font-size: 15px;
+				float: left;
+			}
+				.oinfo
+				{
+					width: 100%;
+					height: 100px;
+					margin-left: 0px;
+					margin-right: auto;
+					float: left;
+					position: relative;
+				}
+				.linfo
+				{
+					width: 30%;
+					height: 60px;
+					margin-left: 0px;
+					margin-bottom: 0px;
+					margin-top: 40px;
+					border-bottom: 4px dotted #D8E1E9;
+					float: left;
+					position: relative;					
+				}
+				.pinfo
+				{
+					width: 69%;
+					height: 100%;
+					margin-right: 0px;
+					border-bottom: 4px dotted #D8E1E9;
+					float: right;
+					position: relative;
+				}
+				.odane
+				{
+					width: 100%;
+					height: 120px;
+					margin-left: 0px;
+					border-bottom: 4px dotted #D8E1E9;
+					float: left;
+					position: relative;
+					overflow-x: hidden;
+					overflow-y: auto;						
+				}
+				.oglist
+				{
+					width: 100%;
+					height: 200px;
+					margin-left: 0px;
+					border-bottom: 4px dotted #D8E1E9;
+					float: left;				
+					position: relative;
+					overflow-x: hidden;
+					overflow-y: auto;							
+				}
+							//modyfikowana lista grup dla potrzeb profile:
+					.ulistGroups
+					{
+						width: 80%;
+						height: 200px;
+						color: #303030;
+						font-size: 14px;
+						float: left;
+						margin-top: 10px;
+						margin-left: 10px;
+						margin-left: 0px;
+						border-bottom: 4px dotted #D8E1E9;
+						overflow-x: hidden;
+						overflow-y: auto;	
+					}				
+						.listaBackgroud
+						{
+							width: 90%;
+							height: 90px;
+							float: left;	
+							margin-top: 1px;
+							border-radius: 15px;
+						}
+							.olistaGroup
+							{
+								width: 90%;
+								height: 110px;
+								float: left;
+								margin-top: 10px;
+								border-radius: 15px;
+							}
+	input[name=gname]
+	{
+		float: left;
+		width: 100px;
+		height: 22px;
+		border-radius: 5px;
+	}							
+	.listaGroups
+	{
+		width: 50%;
+		height: 400px;
+		color: #303030;
+		font-size: 14px;
+		float: left;
+		overflow-x: hidden;
+		overflow-y: auto;		
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+				.olinks
+				{
+					width: 100%;
+					height: 140px;
+					margin-left: 0px;
+					border-bottom: 4px dotted #D8E1E9;
+					float: left;
+					position: relative;
+					overflow-x: hidden;
+					overflow-y: auto;	
+					margin-top: 10px;
+				}
+				.ordates
+				{
+					width: 100%;
+					height: 140px;
+					margin-left: 0px;
+					border-bottom: 4px dotted #D8E1E9;
+					float: left;
+					position: relative;					
+				}
+			
+			
+			.shalf
+			{
+				width: 40%;
+				height: 100%;
+				border: 1px dotted #ffffff;
+				float: right;
+				font-size: 15px;
+			}
+				.oulist
+				{
+					width: 95%;
+					min-height: 100px;
+					border-bottom: 4px dotted #D8E1E9;
+					float: left;
+				}
+				.oudetails
+				{
+					width: 95%;
+					min-height: 100px;
+					border-bottom: 4px dotted #D8E1E9;					
+					float: left;
+					position: relative;
+				}
+				
+				input[name=edit]
+				{
+					width: 60px;
+					height: 18px;
+					background-color: #efefef;
+					font-size: 14px;
+					color: #303030;
+					margin-right: 0px;
+					margin-top: 10px;
+					border: 1px dotted #ffffff;
+					cursor: pointer;
+					letter-spacing: 2px;
+					outline: none;
+					position: absolute;
+					top: 0px;
+					right: 0px;
+				}
+			input[name=edit]:hover
+				{
+					background-color: #50D4C3;
+				}	
+img
+	{
+		border-radius: 15px;
+	}
+			
+			

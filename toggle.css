@@ -1,0 +1,91 @@
+
+
+	
+	.nav-main
+	{
+		width: 400px;
+		height: 150px;
+		background-color: #fff;
+		display: flex;
+		flex-wrap: wrap;
+		z-index: 1000;
+		border: 1px dotted #fff;
+
+	}
+	.btn-toggle-nav
+	{
+		width: 50px;
+		height: 50px;
+		background-color: #f98f39;
+		background-repeat: no-repeat;
+		background-size: 40%;
+		border: 1px dotted #fff;
+		cursor: pointer;
+	}
+	.btn-toggle-nav: hover
+	{
+		opacity: 0.5;
+	}
+	.nav-main ul
+	{
+		display: flex;
+		flex-wrap: wrap;
+		padding-left: 10px;
+		border: 1px dotted #fff;
+	}
+	.nav-main ul li
+	{
+		list-style: none;
+		line-height: 50px;
+	}
+	.nav-main ul li a
+	{
+		display: block;
+		padding: 0 10px;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #303030;
+		font-famili: arial;
+		font-size: 14px;
+	}
+	.nav-sidebar
+	{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 50px;
+		padding: 0 5px;
+		height: calc(100vh - 60px);
+		background-color: #1b1b1b;
+		z-index: 1000;
+	}
+	
+	
+	.nav-sidebar ul
+	{
+		padding-top: 10px;
+		overflow: hidden;
+		visibility: hidden;
+	}
+	
+	.nav-sidebar ul li
+	{
+		line-height: 60px;
+		list-style: none;
+	}
+	.nav-sidebar ul li span, .nav-sidebar ul li a
+	{
+		display: block;
+		height: 60px;
+		padding: 0 10px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #303030;
+		font-size: 15px;
+		font-family: arial;
+		white-space: nowrap;
+	}	
+	.nav-sidebar ul li a:hover
+	{
+		background-color: #222;
+	}	

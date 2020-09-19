@@ -1,0 +1,129 @@
+
+		.thisBar
+		{
+			width: 100%;
+			height: 30px;
+			text-align: left;
+			align-items: center;
+			
+		}
+			.nameBar
+			{
+				width: 100%;
+				height: 30px;
+				items-align: center;
+				text-align: center;
+				margin-top: 5px;
+				float: left;
+			}
+			.nickbox
+			{
+				width: 100%;
+				height: 30px;
+				margin-top: 5px;
+				float: left;
+				border-bottom: 2px dotted #efefef;
+				border-radius: 10px;
+				padding-bottom: 5px;
+				
+			}
+			.ulClass
+			{
+				width: 100%;
+				height: 30px;
+				margin-left: 25px;
+				padding: 0px;
+				text-align: left;
+				float: left;
+				align-items: center;
+				font-size: 15px;
+				position: relative;
+			}
+				.nick
+				{
+					width: 100px;
+					height: 5px;
+					font-size: 14px;
+					cursor: pointer;
+					align-items: center;
+					float: left;
+					text-decoration: none;
+					list-style-type: none;
+					text-align: justify;
+				}
+				.ulClass > .liClass
+				{
+					width: 125px;
+					height: 28px;
+					font-size: 14px;
+					display: none;
+					float: right;
+					margin-left: 0px;
+					margin-right: 0px;
+					align-items: center;
+					text-align: center;
+					background-color: efefef;
+					position: relative;
+					z-index: 100;
+					padding: 0px;
+				}
+					
+				.ulClass:hover > .liClass, .liClass:hover
+				{
+					display: inline-block;
+					cursor: pointer;
+				}
+
+				input[name=profileSubmit]
+				{
+					width: 101px;
+					height: 25px;
+					items-align: center;
+					cursor: pointer;
+					font-size: 14px;
+					font-weight: bold;
+					text-align: center;
+					padding: 0px;
+					margin-right: 45px;
+					border: none;
+					color: #303030;
+					background-color: #efefef;
+					border-radius: 6px;
+					border-bottom: 2px dotted #D8E1E9;
+				}
+				input[name=pocketSubmit]
+				{
+					width: 101px;
+					height: 25px;
+					items-align: center;
+					cursor: pointer;
+					font-size: 14px;
+					margin-top: 1px;
+					text-align: center;
+					padding: 0px;
+					margin-right: 45px;
+					border: none;
+					color: #303030;
+					background-color: #efefef;
+					border-radius: 6px;
+					font-weight: bold;
+					border-bottom: 2px dotted #D8E1E9;
+				}
+				input[name=messageSubmit]
+				{
+					width: 101px;
+					height: 25px;
+					items-align: center;
+					cursor: pointer;
+					font-size: 14px;
+					font-weight: bold;
+					text-align: center;
+					padding: 0px;
+					margin-right: 45px;
+					border: none;
+					color: #303030;
+					background-color: #efefef;
+					border-radius: 6px;
+					margin-top: 1px;
+					border-bottom: 2px dotted #D8E1E9;
+				}

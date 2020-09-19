@@ -1,0 +1,78 @@
+
+		
+		
+		.song-container
+		{
+			margin-top: 0px;
+			
+			width: 97%;
+			min-height: 220px;
+			border: 2px dotted #fff;
+			font-size: 15px;
+			text-align: justify;
+			background-color: #efefef;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			float: left;
+			border-radius: 5px;		
+			text-align: justify;
+			box-sizing: border-box;
+		}
+		.song-menu-list
+		{
+			width: 50%;
+			min-height: 150px;
+			float: left;
+			padding: 10px;
+			
+		}
+		.bar-name
+		{
+			width: 90%;
+			height: 30px;
+			font-size: 18px;
+			font-weight: bold;	
+			position: relative;
+		}
+		input[name=songCreatorSubmit]
+		{
+			width: 90px;
+			height: 20px;
+			border: none;
+			float: left;
+			padding: 5px;
+			position: absolute;
+			top: 0px;
+			left: 140px;
+		}
+		
+		
+		.song-text
+		{
+			width: 50%;
+			min-height: 150px;
+			float: left;
+			padding: 10px;
+			
+		}
+		.song-metric
+		{
+			width: 60%;
+			min-height: 120px;
+			float: left;
+			padding: 10px;
+		}
+		.s-author-list
+		{
+			width: 30%;
+			min-height: 120px;
+			float: left;
+			padding: 10px;
+		}
+		.song-comments
+		{
+			width: 60%;
+			min-height: 120px;
+			float: left;
+			padding: 10px;
+		}
