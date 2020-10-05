@@ -4,6 +4,8 @@
 
 > The goal is to provide entertaiment for people.
 
+> Search for website https://www.niconnect.uk
+
 ## Usage
 
 Update DB connection files (/*-conn.php , /*-Connect.php) to your own.
